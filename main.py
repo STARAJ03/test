@@ -114,12 +114,12 @@ async def show_random_emojis(message):
     return emoji_message
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Query_810bot")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Query_810bot"),
-            InlineKeyboardButton(text="📢 Update Alert! 🚀", url="https://t.me/u1279232cs"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/"),
+            InlineKeyboardButton(text="📢 Update Alert! 🚀", url="https://t.me/"),
         ],
     ]
 )
@@ -138,7 +138,7 @@ def is_sudo(func):
             return await func(client, message)
         else:
             buttons = InlineKeyboardMarkup([
-                [InlineKeyboardButton("📞 Contact Admin", url="https://t.me/Query_810bot")]
+                [InlineKeyboardButton("📞 Contact Admin", url="https://t.me/")]
             ])
             await message.reply_text(
                 "❌ You are not a premium user. Please contact the admin to get access.",
@@ -389,7 +389,7 @@ async def start_command(bot: Client, message: Message):
         "𝙄'𝙡𝙡 𝙩𝙖𝙠𝙚 𝙘𝙖𝙧𝙚 𝙤𝙛 🫦𝙝𝙚 𝙧𝙚𝙨𝙩 😉\n\n"
         "📂 I'll open up and show you things... 🎥 & 📘 you've been craving.\n\n"
         "🌚Need help? Just whisper /help... I'm all ears... \n\n"
-        " Crafted with passion by ηαυgнту ωσяℓ∂🫦"
+        " Crafted with passion by Star AJ🫦"
     )
 
     # Send the welcome photo
@@ -460,8 +460,8 @@ async def txt_handler(client: Client, m: Message):
             "  › Multi-Format Alchemy ⚗️\n"
             "  › Cloud-Powered Magic ☁️\n"
             "  \n"
-            "  📜 𝗥𝗼𝘆𝗮𝗹 𝗗𝗲𝗰𝗿𝗲𝗲: [𝐀𝐂𝐄 𝐖𝐎𝐑𝐋𝐃 👑](https://t.me/Query_810bot)\n"
-            "  💎 𝗖𝗿𝗲𝗱𝗶𝘁𝘀: ᗩᑕE ᗯOᖇᒪᗪ ®\n"
+            "  📜 𝗥𝗼𝘆𝗮𝗹 𝗗𝗲𝗰𝗿𝗲𝗲: [𝐀J 👑](https://t.me/AJS2003)\n"
+            "  💎 𝗖𝗿𝗲𝗱𝗶𝘁𝘀: Star AJ ®\n"
             "╚═══✿═══◌═════✪════◌═══✿═══╝\n"
             "⚜️ Your Satisfaction Is Our Royal Duty ⚜️"
         ),
@@ -862,7 +862,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝐀𝐤❤️‍🩹💭™ 𝘽𝙊𝙏𝙎🐦](https://t.me/Query_810bot)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝙎tar AJ🐦](https://t.me)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -891,7 +891,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝐀𝐤❤️‍🩹💭™🐦](https://t.me/Query_810bot)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [Star AJ🐦](https://t.me/)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -920,7 +920,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝐀𝐤❤️‍🩹💭™🐦](https://t.me/Query_810bot)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝙎tar AJ🐦](https://t.me)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -1080,8 +1080,8 @@ async def text_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'🎞️𝐓𝐢𝐭𝐥𝐞 » `{name} [{res}].mp4`\n🔗𝐋𝐢𝐧𝐤 » <a href="{link}">__**CLICK HERE**__</a>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » `ᗩᑕE ᗯOᖇᒪᗪ 👑`'
-                cc1 = f'📕𝐓𝐢𝐭𝐥𝐞 » `{name}`\n🔗𝐋𝐢𝐧𝐤 » <a href="{link}">__**CLICK HERE**__</a>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » `ᗩᑕE ᗯOᖇᒪᗪ 👑`'
+                cc = f'🎞️𝐓𝐢𝐭𝐥𝐞 » `{name} [{res}].mp4`\n🔗𝐋𝐢𝐧𝐤 » <a href="{link}">__**CLICK HERE**__</a>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » `Star AJ 👑`'
+                cc1 = f'📕𝐓𝐢𝐭𝐥𝐞 » `{name}`\n🔗𝐋𝐢𝐧𝐤 » <a href="{link}">__**CLICK HERE**__</a>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » `Star AJ 👑`'
                   
                 if "drive" in url:
                     try:
@@ -1199,7 +1199,7 @@ async def text_handler(bot: Client, m: Message):
                 elif 'encrypted.m' in url:    
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [ᗩᑕE ᗯOᖇᒪᗪ 👑🐦](https://t.me/Query_810bot)"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝙎tar AJ🐦](https://t.me)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -1211,7 +1211,7 @@ async def text_handler(bot: Client, m: Message):
                 elif 'drmcdni' in url or 'drm/wv' in url:
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [ᗩᑕE ᗯOᖇᒪᗪ 👑](https://t.me/Query_810bot)"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝙎tar AJ🐦](https://t.me)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -1223,7 +1223,7 @@ async def text_handler(bot: Client, m: Message):
                 else:
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [ᗩᑕE ᗯOᖇᒪᗪ 👑](https://t.me/Query_810bot)"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝙎tar AJ🐦](https://t.me)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
