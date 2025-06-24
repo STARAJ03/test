@@ -9,4 +9,4 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 SUDO_USERS = list(map(int, environ.get("SUDO_USERS", "1116405290").split(","))) if environ.get("SUDO_USERS", "") else []
 
 # Admin Configuration - Has FULL and PERMANENT access
-ADMIN_USERS = list(map(int, environ.get("ADMIN_USERS", "1116405290").split(","))) if environ.get("ADMIN_USERS", "") else []
+ADMIN_USERS = list(map(int, environ.get("ADMIN_USERS", "1116405290").split(","))) if environ.get("ADMIN_USERS", "1116405290") else []
